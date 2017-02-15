@@ -1,0 +1,439 @@
+html
+{
+	background-color: #2F2E36;
+}
+body
+{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Open Sans';
+	height: 100vh;
+
+
+
+}
+.wrapper
+{
+	height:auto;
+}
+
+.head
+{
+	
+	background-color: #2F2E36;
+	margin: 0px;
+	padding:0px;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+}
+.logo
+{
+
+
+	
+	
+	margin-left:28px;
+	display: inline-block;
+
+}
+.logo_animate
+{
+
+
+
+	opacity: 0.5;
+	margin:0px;
+	display: inline-block;
+
+
+}
+img
+{
+
+width: 50%;
+height: auto;
+	padding-left:0px;
+   /*margin-left: 0px;*/
+      padding-top: 5px;
+}
+.headSmena
+{
+	display: inline-block;
+	color: white;
+	float: right;
+	font-size: 40px;
+	/*padding-top:20px;*/
+	padding-right: 3%;
+	vertical-align: middle;
+line-height:100px;
+}
+
+.head2
+{
+height: 45px;
+background-color:#1C1E2A;
+vertical-align: middle;
+line-height:45px;
+margin: 0 auto;
+
+text-align: right;
+width: 100%;
+
+}
+a{
+
+	text-decoration: none;
+	color:red;
+	
+}
+
+
+.menupoint, .menupoint_selected
+{
+color: red;
+margin: 20px;
+font-size: 22px;
+	
+}
+.menupoint
+{
+
+color: white;
+opacity: 0.5;
+
+}
+.menupoint_selected a
+{
+color: red;
+opacity:0.8;
+
+}
+.menupoint:hover
+{
+	opacity:1;
+	transition:0.5s all;
+}
+
+.menupoint_selected:hover
+{
+opacity:1;
+transition:0.5s all;
+
+}
+.wrapper
+{
+
+	background-color: #2F2E36;
+	height:100%;
+}
+.content
+{
+	height: 100% !important;
+	background-color: #2F2E36;
+
+	color: white;
+	
+}
+.search{
+	width:20%;
+	display: inline-block;
+	float:left;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 20px;
+
+	
+}
+.search p
+{
+	margin:10px;
+}
+.search_icon
+{
+	width: 100px;
+	height: 100px;
+	padding:0px;
+	margin:0px;
+	opacity: 1;
+	trasition:0.5s all;
+}
+.search_icon:hover
+{
+opacity: 0.7;
+trasition:0.5s all;
+}
+.system_list
+{	width:15%;
+	display: inline-block;
+	background-color: #2F2E36;
+	float:left;
+	padding-left: 10px;
+	padding: 20px;
+	font-size: 20px;
+	height:auto;
+	border-right: 2px solid #1C1E2A;
+border-left: 2px solid #1C1E2A;
+word-wrap: break-word;
+}
+.line
+{
+	width: 3px;
+    height: 100%;
+	display: inline-block;
+	padding:0px;
+	background-color: #1C1E2A;
+	float:left;
+
+
+}
+a.button {
+  color: white;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  margin-top: 20px;
+  width: 100px;
+  margin: 10px auto;
+  display: block;
+  font-size: 15px;
+
+} 
+a.button:hover { 
+	background-color: grey; }
+
+.input_us
+{
+	width:210px; height:25px; font-size:14px; background-color:#1C1E2A;color: white;
+	margin: 0 auto;
+	display: block;
+
+
+}
+.info_about_servers
+{
+	width:50%;
+display: block;
+	background-color: #2F2E36;
+	float:left;
+	padding-left: 10px;
+	padding: 20px;
+	margin: 0 auto;
+
+}
+.info_dns
+{
+
+	
+	/*padding: 20px;*/
+	font-size: 20px;
+	margin:0px;
+}
+.info_ip
+{
+	
+	font-size: 18px;
+	margin:0px;
+}
+.info_isVirtual , .info_os
+{
+	padding: 0px;
+	margin:0px;
+}
+.info_info1
+{
+	font-size: 16px;
+}
+
+.info_about_system_system1
+{
+
+height: auto;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+	border-right: 2px solid #1C1E2A;
+	padding-right: 60px;
+
+	
+}
+.info_about_system_system2
+{
+
+	width: 48%;
+	height:100px;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+	/*padding-left: 10px;*/
+
+
+}
+.info2
+{
+padding-top: 10px;
+	overflow: hidden;
+	width: 100%;
+	margin:0px;
+
+}
+.notes
+{
+	background-color: #1C1E2A;
+	font-size: 12px;
+
+
+}
+
+
+h1.info
+{
+	padding-left: 10px;
+}
+
+.systems
+{
+	font-size: 18px;
+}
+.h1_system
+{
+	width: 100%;
+padding:0px;
+margin:0px;
+	display: block;
+}
+.once_system
+{
+	width:55%;
+	display: inline-block;
+	background-color: #2F2E36;
+	float:left;
+	padding-left: 10px;
+	padding: 20px;
+	font-size: 20px;
+}
+.dop_info
+{
+	width: 50%;
+height: auto;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+	padding-left: 40px;
+
+}
+.system_system_list
+{
+		width: 45%;
+border-right: 2px solid #1C1E2A;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+}
+.system_admins
+{
+		width: 48%;
+	height:100px;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+	margin-left:10px; 
+}
+.system_servers_input
+{
+	width:200px; height:25px; font-size:14px; background-color:#1C1E2A;color: white;
+	margin: 3% 3%;
+	display: block;
+}
+.link_instr
+{
+	padding-left: 50%;
+	width: 50%px;
+	display: inline-block;
+	color:red;
+	
+}
+.link_instr a
+{
+text-decoration: underline;
+color: white;
+
+}
+textarea
+{
+	background-color:grey;
+	 width:100% ;
+	 height:20%;
+	 margin-top: 5%;
+	 font-size: 15px;
+}
+.admins_admins_list
+{
+		width:15%;
+	display: inline-block;
+	background-color: #2F2E36;
+	float:left;
+	padding-left: 10px;
+	padding: 20px;
+	font-size: 20px;
+}
+.admins_info_about_admin
+{
+	width:55%;
+display: block;
+	background-color: #2F2E36;
+	float:left;
+	padding: 20px;
+
+}
+p.admins_info_FIO , p.admins_info_otdel, p.admins_info_work_phone, p.admins_info_ipphone,
+p.admins_mobphone
+{
+	font-size: 20;
+	padding: 0;
+	margin:0;
+	font-size: 20px;
+}
+.admins_stroka, .admins_info_izBD
+{
+
+display: block;
+float:left;
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+margin-left: 10px;
+}
+.admins_system
+{
+display: block;
+float:left;
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+margin-left: 10px;
+width: 50%;
+}
+.admins_info_about_system_system1
+{
+	height: auto;
+	display: inline-block;
+	float:left;
+	font-size: 20px;
+
+
+}
+hr
+{
+	padding:0px;
+	margin:0px;
+	border: 0;
+  height: 1.5px;
+  background: #1C1E2A;
+  
+}
+
